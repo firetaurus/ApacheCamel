@@ -11,3 +11,5 @@ Go to root folder and type **mvn clean install**
 ### License ###
 
 ### Authorization ###
+
+### Docker configuration ###
