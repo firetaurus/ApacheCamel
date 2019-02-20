@@ -20,5 +20,10 @@ public class CamelController {
 	public String sayHello() {
 		return "Welcome back";
 	}
+	
+	@RequestMapping(value="/casa")
+	public String sayCasa() {
+		return "Bentornato";
+	}
 
 }
