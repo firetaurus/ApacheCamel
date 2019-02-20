@@ -26,4 +26,8 @@ public class CamelController {
 		return "Bentornato";
 	}
 
+	@RequestMapping(value="/hola")
+	public String sayHola() {
+		return "Bienvenido";
+	}
 }
