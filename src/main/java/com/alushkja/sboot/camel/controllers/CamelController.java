@@ -15,5 +15,10 @@ public class CamelController {
 	public void startCamel() {
 		producerTemplate.sendBody("direct:firstRoute", "Calling via Spring Boot Rest Controller");
 	}
+	
+	@RequestMapping(value="/home")
+	public String sayHello() {
+		return "Welcome back";
+	}
 
 }
